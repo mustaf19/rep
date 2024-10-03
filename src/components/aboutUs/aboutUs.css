@@ -1,0 +1,9 @@
+.aboutUs{
+    display: flex;
+}
+
+.aboutUsItems{
+    margin: auto;
+    text-align: center;
+    flex: 1;
+}

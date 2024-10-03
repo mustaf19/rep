@@ -1,0 +1,11 @@
+#copyright{
+    display: flex;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+body{
+    padding: 0 5%;
+}

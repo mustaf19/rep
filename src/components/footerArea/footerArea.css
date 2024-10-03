@@ -1,0 +1,39 @@
+#footerArea{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+#featuredCityList{
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+ul{
+    list-style: none;
+}
+
+.cityList{
+    list-style-type: circle;
+    /* width: 100px; */
+}
+
+#newsletter{
+    display: grid;
+
+}
+
+#newsletter button{
+    display: inline-block;       /* Makes it an inline-block element */
+    padding: 5px 20px;         /* Adds padding for better clickability */
+    border: none;               /* Removes default border */
+    border-radius: 44px;        /* Rounds the corners */
+    cursor: pointer;            /* Changes cursor to pointer on hover */
+    text-align: center;         /* Centers text */
+    text-decoration: none;      /* Removes underline for links */
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.ourClient{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.heading{
+    display: grid;
+    text-align: center;
+}
+
+#clients{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    padding: 20px; 
+    list-style: none;
+}
+
+.clientsLogo{
+    height: 70px;
+}
+
+#clientDiv{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
